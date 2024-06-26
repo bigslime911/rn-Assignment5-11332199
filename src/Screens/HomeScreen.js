@@ -217,7 +217,7 @@ const HomeScreen = () => {
                 {/* Image */}
                 <View
                   style={{
-                    backgroundColor: isDarkTheme ? "#333" : "#F2F2F2",
+                    backgroundColor: isDarkTheme ? "silver" : "#F2F2F2",
                     marginLeft: 19,
                     padding: 20,
                     borderRadius: 40,

@@ -17,7 +17,7 @@ export const listData = [
 
   {
     id: 2,
-    name: "Money Transfere",
+    name: "Money Transfer",
     type: "Transaction",
     price: "$300",
     image: require("../../assets/moneyTransfer.png"),

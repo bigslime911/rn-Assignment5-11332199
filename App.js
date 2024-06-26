@@ -7,6 +7,8 @@ import { AntDesign } from "@expo/vector-icons";
 import { ThemeContext, ThemeProvider } from "./src/Context/ThemeContext";
 import { Ionicons } from "@expo/vector-icons";
 import { useContext } from "react";
+import Transaction from "./src/Screens/Transaction";
+import Statistics from "./src/Screens/StatisticsScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -42,7 +44,8 @@ function MyTabs() {
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-
+      <Tab.Screen name="Transaction" component={Transaction} />
+      <Tab.Screen name="Statistics" component={Statistics} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
     </Tab.Navigator>
   );
